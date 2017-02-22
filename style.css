@@ -34,7 +34,7 @@ a:hover {
 }
 
 .container {
-  width: 500px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -58,4 +58,36 @@ a:hover {
   padding: 0px 20px;
 }
 
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  text-align: center;
+  background-color: #666666;
+}
+
+#sidebar li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar a {
+  text-decoration: none;
+  color: #B3B3B3;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+#page-content {
+  margin-left: 120px;
+}
 

@@ -13,21 +13,17 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="sidebar">
-    <ul>
-      <li><a href="#links"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-      <li><a href="#favorite-shows"><i class="fa fa-film" aria-hidden="true"></i></a></li>
-    </ul>
-    </div>
-    <div id="page-content">
-      <div class="container">
-        <div class="card_white">
+
+    <div id="wrapper">
+      <div id="left-container">
+        <div class="card_white text-center">
           <img class= "img_circle" src="images/AS_1.png" alt="Anne-Sophie" width="150px">
           <h1>Anne-Sophie</h1>
-            <h2>Independant Career Consultant - Exploring new paths</h2>
+            <h2>Independant Career Consultant</h2>
+            <h3>Exploring new paths</h3>
               <p>After 7 years working in HR, I decided to explore new paths. Right now, learning to code @LeWagon </p>
         </div>
-        <div class="card_white" id="links">
+        <div class="card_white text-center" id="links">
           <p>Follow me on social media</p>
           <ul class="list_inline">
             <li><a href="https://fr.linkedin.com/in/anne-sophie-chambon-920a1637" target="_blank">
@@ -37,25 +33,27 @@
             <li><a href="https://www.instagram.com/heni_napso/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i><br>Instagram</a></li>
           </ul>
         </div>
-        <div class="card_white" id="favorite-shows">
+      </div>
+      <div id="right-container">
+        <div class="card_white text-center" id="favorite-shows">
           <h2>My favorites shows</h2>
           <table>
             <tr>
-              <td><img src="images/silicon_valley.jpg" alt="Silicon Valley" width="150px"></td>
+              <td><img src="images/silicon_valley.jpg" alt="Silicon Valley" width="90px"></td>
               <td>
                 <h3>Silicon Valley</h3>
                 <p>The ups and downs of startup life in Silicon Valley.</p>
               </td>
             </tr>
             <tr>
-              <td><img src="images/the_americans.jpg" alt="The Americans" width="150px"></td>
+              <td><img src="images/the_americans.jpg" alt="The Americans" width="90px"></td>
               <td>
                 <h3>The Americans</h3>
                 <p>The daily not-so-ordinary American life of Russian undercover spies in the heights of the Cold War</p>
               </td>
             </tr>
             <tr>
-              <td><img src="images/house_of_cards.jpg" alt="House of Cards" width="150px"></td>
+              <td><img src="images/house_of_cards.jpg" alt="House of Cards" width="90px"></td>
               <td>
                 <h3>House of Cards</h3>
                 <p>Uncovering power games that make the bedrock of American politics</p>
@@ -63,6 +61,11 @@
             </tr>
           </table>
         </div>
+      </div>
+      <div class="clear"></div>
+      <div id="footer" class="card_white">
+        <p>This page has been created during the Fullstack Coding Bootcamp hosted by LeWagon - Batch #59</p>
+        <a class="btn-red text-center" href="https://www.lewagon.com/paris" target="_blank">Learn more on LeWagon 9 week-bootcamp</a>
       </div>
     </div>
   </body>

@@ -3,7 +3,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 20px;
 }
 
 h1 {
@@ -33,20 +33,42 @@ a:hover {
   color: #000080;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
+#wrapper {
+  padding: 20px;
+  width: 1000px;
+  margin: 20px auto;
+  border-radius: 3px;
+  background: #CCCCCC;
 }
 
+#left-container {
+  width: 60%;
+  float: left;
+  min-height: 600px;
+}
+
+#right-container {
+  width: 40%;
+  float: right;
+  min-height: 600px;
+}
+
+.clear {
+  clear: both;
+}
+
+#footer {
+  postiion: relative;
+  padding: 10px 400px 60px 20px;
+}
 .img_circle {
   border-radius: 50%;
 }
 .card_white {
   background-color: white;
-  margin: 20px auto;
-  box-shadow: 2px 2px 2px black;
-  padding: 10px;
-  text-align: center;
+  margin: 20px;
+  box-shadow: 0px 1px 1px black;
+  padding: 20px;
 }
 
 .list_inline {
@@ -58,36 +80,27 @@ a:hover {
   padding: 0px 20px;
 }
 
-#sidebar {
-  position: fixed;
-  width: 300px;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 100px;
+.card_white:first-child {
+  min-height: 300px
+}
+
+.card_white:last-child {
+  min-height: 100px;
+}
+
+.text-center {
   text-align: center;
-  background-color: #666666;
 }
 
-#sidebar li {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#sidebar ul {
-  list-style: none;
-}
-
-#sidebar a {
-  text-decoration: none;
-  color: #B3B3B3;
-}
-
-#sidebar a:hover {
+.btn-red {
+  background-color: #D23333;
   color: white;
+  border-radius: 2px;
+  margin: 20px;
+  padding: 5px;
 }
 
-#page-content {
-  margin-left: 120px;
+.btn-red:hover {
+  color: white;
+  background-color: #800000;
 }
-
